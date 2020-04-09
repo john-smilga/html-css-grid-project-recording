@@ -249,6 +249,7 @@ Sidebar
   /* add later */
   transform: translateX(-100%);
 }
+/* toggle sidebar */
 .show-sidebar {
   transform: translateX(0);
 }
