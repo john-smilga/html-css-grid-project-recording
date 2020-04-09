@@ -533,6 +533,33 @@ Projects
     grid-template-columns: repeat(3, 1fr);
   }
 }
+@media screen and (min-width: 1170px) {
+  .projects-center {
+    grid-template-rows: 200px 200px;
+    gap: 1rem;
+    grid-template-areas:
+      "a b b"
+      "a c d";
+  }
+  .project-img {
+    height: 100%;
+  }
+  .project {
+    height: 100%;
+  }
+  .project-1 {
+    grid-area: c;
+  }
+  .project-2 {
+    grid-area: b;
+  }
+  .project-3 {
+    grid-area: a;
+  }
+  .project-4 {
+    grid-area: d;
+  }
+}
 /*
 =============== 
 Connect
