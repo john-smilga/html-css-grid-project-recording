@@ -578,6 +578,7 @@ Connect
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: -2;
 }
 .connect::after {
   content: "";
@@ -589,6 +590,22 @@ Connect
   background: var(--clr-white);
   /* background: rgba(0, 0, 0, 0.6); */
   opacity: 0.7;
+  z-index: -1;
+}
+.connect {
+  display: grid;
+  place-items: center;
+}
+.video-banner .section-title {
+  margin-bottom: 2rem;
+}
+.video-text {
+  max-width: 30rem;
+}
+.video-banner {
+  background: var(--clr-primary-10);
+  padding: 3rem 5rem 12rem 5rem;
+  text-align: center;
 }
 /*
 =============== 
