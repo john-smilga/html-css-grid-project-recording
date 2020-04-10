@@ -548,13 +548,13 @@ Projects
     height: 100%;
   }
   .project-1 {
-    grid-area: c;
+    grid-area: a;
   }
   .project-2 {
     grid-area: b;
   }
   .project-3 {
-    grid-area: a;
+    grid-area: c;
   }
   .project-4 {
     grid-area: d;
