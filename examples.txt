@@ -1,0 +1,21 @@
+<!-- about page -->
+<p>
+  Hello, I am John Doe and I am a web developer. I live and work in
+  somewhere warm. I spend most of my day, experimenting with HTML, CSS and
+  JavaScript (and its endless list of frameworks). I enjoy coding and the
+  challenge of learning something new everyday. You can also find me at youtube
+  channel
+  <a href="https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA"
+    >coding addict</a
+  >
+</p>
+
+<!-- contact page-->
+<p>
+  If you are looking to get ahold of me, you can send me an email at
+  <a href="mailto:email@email.com">@your_email</a>
+</p>
+<p>
+  You can also reach me on Twitter at
+  <a href="https://www.twitter.com">@your_social_media </a>
+</p>
