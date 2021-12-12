@@ -12,7 +12,7 @@
 
 ## Screenshots
 
-![Home Page](public/screenshot1.png "Home Page")
+![Home Page](images/screenshot2.png "Home Page")
 
 ![](/screenshots/2.png)
 
