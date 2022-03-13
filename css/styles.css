@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
 
 /*
 =============== 
@@ -38,8 +38,8 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -335,6 +335,11 @@ Sidebar
 .close-btn:hover {
   color: #e66b6b;
 }
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
 /*
 =============== 
 Hero
@@ -376,7 +381,7 @@ Hero
 
   .hero-img::before,
   .about-img::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
@@ -530,7 +535,7 @@ Projects
   opacity: 0.1;
 }
 .project::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -566,8 +571,8 @@ Projects
     grid-template-rows: 200px 200px;
     gap: 1rem;
     grid-template-areas:
-      "a b b"
-      "a c d";
+      'a b b'
+      'a c d';
   }
   .project-img {
     height: 100%;
@@ -610,7 +615,7 @@ Connect
   z-index: -2;
 }
 .connect::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
